@@ -1,0 +1,175 @@
+$date
+	Sat Jul 11 20:39:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 1 ! HREADYOUT $end
+$var wire 8 " LED [7:0] $end
+$var wire 32 # HRDATA [31:0] $end
+$var reg 32 $ HADDR [31:0] $end
+$var reg 1 % HCLK $end
+$var reg 1 & HREADY $end
+$var reg 1 ' HRESETn $end
+$var reg 1 ( HSEL $end
+$var reg 3 ) HSIZE [2:0] $end
+$var reg 2 * HTRANS [1:0] $end
+$var reg 32 + HWDATA [31:0] $end
+$var reg 1 , HWRITE $end
+$scope module led1 $end
+$var wire 32 - HADDR [31:0] $end
+$var wire 1 % HCLK $end
+$var wire 1 & HREADY $end
+$var wire 1 ! HREADYOUT $end
+$var wire 1 ' HRESETn $end
+$var wire 1 ( HSEL $end
+$var wire 3 . HSIZE [2:0] $end
+$var wire 2 / HTRANS [1:0] $end
+$var wire 32 0 HWDATA [31:0] $end
+$var wire 1 , HWRITE $end
+$var wire 8 1 LED [7:0] $end
+$var wire 32 2 HRDATA [31:0] $end
+$var reg 32 3 rHADDR [31:0] $end
+$var reg 1 4 rHSEL $end
+$var reg 3 5 rHSIZE [2:0] $end
+$var reg 2 6 rHTRANS [1:0] $end
+$var reg 1 7 rHWRITE $end
+$var reg 8 8 rLED [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 8
+07
+b0 6
+b0 5
+04
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+0,
+b0 +
+b0 *
+b0 )
+0(
+0'
+0&
+0%
+b0 $
+b0 #
+b0 "
+1!
+$end
+#5000
+1%
+#10000
+0%
+#15000
+1%
+#20000
+0%
+1'
+#25000
+b1 5
+17
+b11 6
+14
+b1 )
+b1 .
+1,
+b11 *
+b11 /
+1&
+1(
+1%
+#30000
+0%
+#35000
+1%
+#40000
+0%
+#45000
+b1 #
+b1 2
+b1 "
+b1 1
+b1 8
+1%
+b1 +
+b1 0
+#50000
+0%
+#55000
+b10000 #
+b10000 2
+b10000 "
+b10000 1
+b10000 8
+1%
+b10000 +
+b10000 0
+#60000
+0%
+#65000
+b0 #
+b0 2
+b0 "
+b0 1
+b0 8
+1%
+b100000000 +
+b100000000 0
+#70000
+0%
+#75000
+b1 #
+b1 2
+b1 "
+b1 1
+b1 8
+1%
+b100000001 +
+b100000001 0
+#80000
+0%
+#85000
+b10001 #
+b10001 2
+b10001 "
+b10001 1
+b10001 8
+1%
+b100010001 +
+b100010001 0
+#90000
+0%
+#95000
+1%
+#100000
+0%
+#105000
+1%
+#110000
+0%
+#115000
+1%
+#120000
+0%
+#125000
+1%
+#130000
+0%
+#135000
+1%
