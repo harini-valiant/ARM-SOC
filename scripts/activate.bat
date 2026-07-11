@@ -18,7 +18,7 @@ echo   GTKWave        = %GTKWAVE%
 echo   ARM GCC        = %ARMCC%
 
 echo === Environment ready ===
-REM %IVERILOG% -o hello.exe hello.v
-REM %VVP% hello.exe
-REM %GTKWAVE% hello.vcd
+REM %IVERILOG% -o newf.vvp design.v testbench.v
+REM %VVP% newf.vvp
+REM %GTKWAVE% dump.vcd
 REM %ARMCC% -mcpu=cortex-a53 -O2 -o gpio_driver.elf gpio_driver.c
